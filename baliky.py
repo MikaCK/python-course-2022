@@ -9,10 +9,12 @@ baliky = {
 
 kod_baliku = input('Kod baliku?')
 
-print(kod_baliku)
 
 if kod_baliku in baliky:
-    print (f'Balík {baliky[kod_baliku]}')
-    
-else:
-    print
+     if baliky[kod_baliku] == True:
+          print('Balík byl předán kurýrovi')
+     else:
+          print('Balík zatím nebyl předán kurýrovi')
+
+
+
